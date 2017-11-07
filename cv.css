@@ -1,0 +1,94 @@
+*{margin:0;}
+
+body{
+background-image: url("img/achtergrond.jpg");
+background-repeat:repeat-x;
+background-position: center;
+}
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #262626;
+}
+
+li {
+   float: left;
+}
+
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+li a:hover {
+   background-color: #111;
+}
+
+p{
+  color:white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+
+h2{
+  color:white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h1{
+  color:white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+footer{
+  position: absolute;
+  align-items: center;
+  color: white;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #262626;
+  text-align: center;
+  padding: 5px;
+
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.flex-item {
+
+    width: 600px;
+    height: 600px;
+    margin: auto;
+
+}
+
+#programeer{
+  border-radius: 8px;
+  float:right;
+}
+#logo{
+  border-radius: 8px;
+  float:right;
+}
+
+#code{
+  border-radius: 8px;
+  margin-top: 10px;
+}
